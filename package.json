@@ -1,0 +1,28 @@
+{
+  "name": "leopard-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with order management and barcode features",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "2.6.0",
+    "axios": "^1.11.0",
+    "better-sqlite3": "^12.2.0",
+    "bwip-js": "4.7.0",
+    "canvas": "3.2.0",
+    "chalk": "^5.6.2",
+    "discord-api-types": "0.38.21",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "install": "^0.13.0",
+    "luxon": "3.7.1",
+    "node-cron": "^4.2.1",
+    "npm": "^11.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
